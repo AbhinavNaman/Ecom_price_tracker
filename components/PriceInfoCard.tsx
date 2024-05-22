@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 interface Props{
-    title: String;
-    iconSrc: String;
-    value: String;
-    borderColor: String;
+    title: string;
+    iconSrc: string;
+    value: string;
+    borderColor: string;
 }
 
 const PriceInfoCard = ({title, iconSrc, value, borderColor}: Props) => {
